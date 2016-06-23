@@ -1,0 +1,43 @@
+.developer-branding {
+  padding: 8px;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color:rgba(0,0,0,0.8);
+  }
+  img {
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    transition: transform 0.2s;
+  }
+  /*
+  a img:hover {
+    transform: rotate(360deg);
+  }*/
+
+  img {
+    font-size: 12px;
+    vertical-align: middle;
+    -webkit-transition: opacity 0.2s, padding 0.2s;
+    -moz-transition: opacity 0.2s, padding 0.2s;
+    transition: opacity 0.2s, padding 0.2s;
+  }
+  span {
+    font-size: 12px;
+    vertical-align: middle;
+    -webkit-transition: opacity 0.2s, padding 0.2s;
+    -moz-transition: opacity 0.2s, padding 0.2s;
+    transition: opacity 0.2s, padding 0.2s;
+    span {
+      opacity: 0;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+  &:hover span {
+    padding-left: 3px;
+    padding-right: 5px;
+    opacity: 1;
+  }
+}
