@@ -3,15 +3,15 @@ module.exports = {
         regular: './api.jsx'
     },
     output: {
-        path: 'build/tmp',
-        filename: 'build_raw.js',
+        path: 'build',
+        filename: 'build.js',
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],
-  		alias: {
-  			'react': 'preact-compat',
-  			'react-dom': 'preact-compat'
-  		}
+    		alias: {
+    			'react': 'preact-compat',
+    			'react-dom': 'preact-compat'
+    		}
     },
     module: {
       loaders: [

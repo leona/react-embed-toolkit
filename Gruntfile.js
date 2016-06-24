@@ -56,7 +56,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 
-  grunt.registerTask('default', ['sass', 'cssmin', 'assets', 'webpack', 'uglify']);
+  grunt.registerTask('default', ['sass', 'cssmin', 'assets', 'webpack']);
 
   
   grunt.registerTask('assets', 'Building asset data URIs', function() {
